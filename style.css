@@ -1,0 +1,63 @@
+/* Add a black background color to the top navigation */
+.navbar {
+    overflow: hidden;
+}
+
+/* Style the headlin of the website */
+/*#home {    
+    color: #f2f2f2;
+    text-align: right;
+    font-size: 20px;
+}*/
+
+/* Style the links inside the navigation bar */
+.navbar {
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,1.9);
+}
+
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: right;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Roboto;
+}
+
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    color: #BD4D04;
+}  
+
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+    display: none;
+}
+
+.mainBody {
+    font-family: Roboto;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.mainBody h1 {
+    color: #BD4D04;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+.mainBody h4 {
+    letter-spacing: 5px;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.mainBody h5 {
+    line-height: 10%;
+    letter-spacing: 2px;
+}
