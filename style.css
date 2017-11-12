@@ -121,6 +121,7 @@
     .navbar a {padding: 10px 20px;}
    
     .BGpic {
+        width: 40%
         padding-top: 30px;
         float: left;
         position: relative;
