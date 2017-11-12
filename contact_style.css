@@ -7,13 +7,6 @@
     overflow: hidden;
 }
 
-/* Style the headlin of the website */
-/*#home {    
-    color: #f2f2f2;
-    text-align: right;
-    font-size: 20px;
-}*/
-
 /* Style the links inside the navigation bar */
 .navbar {
     box-shadow: 0 1px 1px 0 rgba(0,0,0,1.9);
@@ -30,43 +23,35 @@
     font-family: Roboto;
 }
 
-
 /* Change the color of links on hover */
 .navbar a:hover {
     color: #BD4D04;
 }  
-
 
 /* Hide the link that should open and close the topnav on small screens */
 .navbar .icon {
     display: none;
 }
 
-.BGpic {
-    padding-top: 50px;
-    float: left;
-}
-
-.mainBody {
-    float: left;
-    font-family: Roboto;
-    text-align: center;
-    padding-top: 400px;
-}
-
-.mainBody h1 {
+/* Change the color of contact */
+.navbar .contact {
     color: #BD4D04;
-    letter-spacing: 5px;
+}
+
+.maincontent {
+    text-align: center;
+    font-family: Roboto;
+    padding-top: 15%;
+}
+
+.maincontent h1 {
+    font-size: 100px;
+}
+
+.maincontent h2 {
     font-size: 80px;
 }
 
-.mainBody h4 {
-    letter-spacing: 5px;
-    font-size: 25px;
-    padding-bottom: 50px;
-}
-
-.mainBody h5 {
-    line-height: 10%;
-    letter-spacing: 2px;
+.maincontent h3 {
+    font-size: 35px;
 }
