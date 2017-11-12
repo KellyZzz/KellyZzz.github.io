@@ -130,10 +130,10 @@
     }
 
     .mainBody {
-        top: 0px;
-        float: right;
-      /*  text-overflow: right;*/
-        position: relative;
+        float: left;
+        font-family: Roboto;
+        text-align: center;
+        padding-top: 200px;
     }
 
 }
