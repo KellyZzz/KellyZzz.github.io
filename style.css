@@ -133,7 +133,8 @@
         float: left;
         font-family: Roboto;
         text-align: center;
-        border-left: 30px;
+        border-left: 60px;
+        border-top: -10px;
     }
 
 }
