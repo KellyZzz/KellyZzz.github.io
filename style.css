@@ -129,9 +129,10 @@
     }
 
     .mainBody {
-       float: right;
-       text-overflow: right;
-       position: relative;
+        padding: -100px;
+        float: right;
+        text-overflow: right;
+        position: relative;
     }
 
 }
