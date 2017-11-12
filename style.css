@@ -121,12 +121,17 @@
     .navbar a {padding: 10px 20px;}
    
     .BGpic {
-        height:  50%
         padding-top: 30px;
         float: left;
-        position: absolute;
+        position: relative;
         opacity: 0.5;
         filter: alpha(opacity=50);
+    }
+
+    .mainBody {
+       float: right;
+       text-overflow: right;
+       position: relative;
     }
 
 }
