@@ -129,9 +129,9 @@
     }
 
     .mainBody {
-        padding: -100px;
+        top: 0px;
         float: right;
-        text-overflow: right;
+      /*  text-overflow: right;*/
         position: relative;
     }
 
