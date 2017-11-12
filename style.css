@@ -134,7 +134,7 @@
         float: left;
         font-family: Roboto;
         text-align: center;
-        padding-top: 30px;
+        padding-top: -30px;
     }
 
 }
