@@ -71,7 +71,7 @@
   and (-webkit-min-device-pixel-ratio: 3) { 
     .navbar a {padding: 2px 4px;}
    
-    .BGpic {
+   /* .BGpic {
         padding-top: 10px;
         float: left;
         position: absolute;
@@ -81,7 +81,7 @@
         font-family: Roboto;
         text-align: center;
         padding-top: 200px;
-    }
+    }*/
 
 
 }
