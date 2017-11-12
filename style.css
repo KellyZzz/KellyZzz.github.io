@@ -70,8 +70,9 @@
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     .navbar a {padding: 2px 4px;}
+   
     .BGpic {
-        padding-top: 0px;
+        padding-top: 10px;
         float: left;
         position: absolute;
     }
