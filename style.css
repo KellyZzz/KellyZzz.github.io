@@ -83,19 +83,14 @@
         padding-top: 0px;
     }
     .mainBody h1 {
-        letter-spacing: 0.5px;
-        font-size: 5px;
+        letter-spacing: 5px;
+        font-size: 25px;
     }
 
     .mainBody h4 {
-        letter-spacing: 0.5px;
-        font-size: 2px;
+        letter-spacing: 5px;
+        font-size: 10px;
         padding-bottom: 5px;
-    }
-
-    .mainBody h5 {
-        line-height: 10%;
-        letter-spacing: 2px;
     }
 
 
