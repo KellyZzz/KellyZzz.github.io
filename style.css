@@ -130,11 +130,9 @@
     }
 
     .mainBody {
-        width: 30%;
         float: left;
         font-family: Roboto;
         text-align: center;
-        padding-top: -300px;
         border-left: 30px;
     }
 
