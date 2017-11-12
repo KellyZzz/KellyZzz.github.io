@@ -80,5 +80,30 @@
         font-family: Roboto;
         text-align: center;
         padding-top: 0px;
-}
+    }
+    .mainBody h1 {
+        letter-spacing: 5px;
+        font-size: 10px;
+    }
+
+    .mainBody h4 {
+        letter-spacing: 5px;
+        font-size: 5px;
+        padding-bottom: 0px;
+    }
+
+    .mainBody h5 {
+        line-height: 10%;
+        letter-spacing: 2px;
+    }
+
+
+
+
+
+
+
+
+
+
 }
