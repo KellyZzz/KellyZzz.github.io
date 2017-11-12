@@ -70,5 +70,7 @@
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     .navbar a {padding: 2px 4px;}
-    .mainBody {padding-top: -200px;}
+    .mainBody {
+        float: center;
+        padding: 0px;}
 }
