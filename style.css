@@ -7,13 +7,6 @@
     overflow: hidden;
 }
 
-/* Style the headlin of the website */
-/*#home {    
-    color: #f2f2f2;
-    text-align: right;
-    font-size: 20px;
-}*/
-
 /* Style the links inside the navigation bar */
 .navbar {
     box-shadow: 0 1px 1px 0 rgba(0,0,0,1.9);
@@ -30,12 +23,10 @@
     font-family: Roboto;
 }
 
-
 /* Change the color of links on hover */
 .navbar a:hover {
     color: #BD4D04;
 }  
-
 
 /* Hide the link that should open and close the topnav on small screens */
 .navbar .icon {
@@ -45,6 +36,7 @@
 .BGpic {
     padding-top: 50px;
     float: left;
+    position: relative;
 }
 
 .mainBody {
@@ -69,4 +61,13 @@
 .mainBody h5 {
     line-height: 10%;
     letter-spacing: 2px;
+}
+
+
+/* Media Query for iPhoneX */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .navbar a {padding: 2px 4px;}
 }
