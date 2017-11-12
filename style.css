@@ -128,8 +128,8 @@
 
     .mainBody {
         position: absolute;
-        top: 60px;
-        right: 40px;
+        top: 120px;
+        right: 0px;
         width: 300px;
         height: 200px;
     }
