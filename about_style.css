@@ -94,7 +94,7 @@ body {
     body {
         margin: 10;
         font-family: Roboto;
-        font-size: 7px;
+        font-size: 5px;
     } 
 
     .container {
@@ -109,7 +109,7 @@ body {
     }
 
     .container .content {
-        font-size: 7px;
+        font-size: 5px;
         padding: 5px;
     }
 
@@ -120,8 +120,8 @@ body {
     }
 
     .socialmedia .fa {
-        padding: 100px;
-        font-size: 30px;
+        padding: 0px;
+        font-size: 15px;
     }
 }
 
