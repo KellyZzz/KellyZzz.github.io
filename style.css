@@ -33,6 +33,11 @@
     display: none;
 }
 
+/* Change the color of home */
+.navbar .index {
+    color: #BD4D04;
+}
+
 .BGpic {
     padding-top: 50px;
     float: left;
