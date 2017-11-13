@@ -89,7 +89,7 @@ body {
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-    .navbar a {padding: 5px 10px;}
+    .navbar a {padding: 3px 6px;}
 
     body {
         margin: 10;
@@ -130,7 +130,7 @@ body {
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-    .navbar a {padding: 2px 4px;}
+    .navbar a {padding: 5px 10px;}
 
     body {
         margin: 10;
