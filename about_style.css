@@ -120,24 +120,27 @@ body {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     .navbar a {padding: 2px 4px;}
-   
-    .BGpic {
-        padding-top: 10px;
-        float: left;
-        position: absolute;
-        opacity: 0.5;
-        filter: alpha(opacity=50);
-    }
 
-    .mainBody {
-        float: left;
+    body {
+        margin: 10;
         font-family: Roboto;
-        text-align: center;
-        padding-top: 200px;
+        font-size: 10px;
+    } 
+
+    .container {
+        max-width: 720px;
+        min-width: 400px;
+        margin: 10% 5%;
     }
 
-    .mainBody h4 {
-        padding-bottom: 20px;
+    .container img {
+        margin-bottom: -10px;
+        margin-left: -10px;
+    }
+
+    .container .content {
+        font-size: 10px;
+        padding: 5px;
     }
 }
 
@@ -146,23 +149,28 @@ body {
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
-    .navbar a {padding: 15px 30px;}
+    .navbar a {padding: 2px 4px;}
 
-    .BGpic {
-        position: relative;
-        width: 600px;
-        height: 400px;
+    body {
+        margin: 10;
+        font-family: Roboto;
+        font-size: 10px;
+    } 
+
+    .container {
+        max-width: 1010px;
+        min-width: 740px;
+        margin: 10% 5%;
     }
 
-    .mainBody {
-        position: absolute;
-        top: -30px;
-        right: 0px;
-        width: 300px;
-        height: 200px;
+    .container img {
+        margin-bottom: -30px;
+        margin-left: -20px;
     }
 
-    .mainBody h1 {
-        font-size: 50px;
+    .container .content {
+        font-size: 10px;
+        padding: 5px;
     }
+}
 
