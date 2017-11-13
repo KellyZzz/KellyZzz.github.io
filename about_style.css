@@ -16,8 +16,8 @@ body {
 }
 
 .container img {
-	margin-bottom: -100px;
-	margin-left: -120px;}
+	margin-bottom: -70px;
+	margin-left: -90px;}
 
 .container .content {
     position: absolute;
@@ -26,7 +26,7 @@ body {
     color: #FFFFFF;
     width: 40%;
     height: 75%;
-    padding: 50px;
+    padding: 30px;
 }
 
 /* Add a black background color to the top navigation */
@@ -78,6 +78,7 @@ body {
   text-align: center;
   text-decoration: none;
   margin: 0px 20px;
+  color: #A57E5E;
 }
 
 .fa:hover {

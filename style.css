@@ -39,16 +39,18 @@
 }
 
 .BGpic {
-    padding-top: 50px;
+    width: 55%;
+    padding-top: 30px;
     float: left;
     position: relative;
 }
 
 .mainBody {
-    float: left;
+    float: center;
     font-family: Roboto;
     text-align: center;
-    padding-top: 400px;
+    padding: 250px;
+    padding-right: 100px;
 }
 
 .mainBody h1 {
