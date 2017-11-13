@@ -194,16 +194,5 @@ body {
         font-size: 15px;
         padding: 5px;
     }
-
-    .socialmedia {
-        position: absolute;
-        right: 0;
-        bottom: 10px;
-    }
-
-    .socialmedia .fa {
-        padding: 30px;
-        font-size: 15px;
-    }
 }
 
