@@ -23,7 +23,7 @@ body {
     position: absolute;
     bottom: 0;
     background: rgba(226, 155, 108, 0.3);
-    color: #ffffff;
+    color: #FFFFFF;
     width: 40%;
     height: 75%;
     padding: 50px;
@@ -94,7 +94,7 @@ body {
     body {
         margin: 10;
         font-family: Roboto;
-        font-size: 5px;
+        font-size: 10px;
     } 
 
     .container {
@@ -109,7 +109,7 @@ body {
     }
 
     .container .content {
-        font-size: 5px;
+        font-size: 10px;
         padding: 5px;
     }
 }
