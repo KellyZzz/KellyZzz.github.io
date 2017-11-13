@@ -120,7 +120,7 @@ body {
     }
 
     .socialmedia .fa {
-        padding: 0px;
+        padding: 10px;
         font-size: 15px;
     }
 }
@@ -153,6 +153,17 @@ body {
         font-size: 7px;
         padding: 5px;
     }
+
+    .socialmedia {
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+    }
+
+    .socialmedia .fa {
+        padding: 10px;
+        font-size: 25px;
+    }
 }
 
 /* Media Query for iPad 1, 2 Mini & Air */
@@ -182,6 +193,17 @@ body {
     .container .content {
         font-size: 15px;
         padding: 5px;
+    }
+
+    .socialmedia {
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+    }
+
+    .socialmedia .fa {
+        padding: 30px;
+        font-size: 15px;
     }
 }
 
