@@ -89,12 +89,12 @@ body {
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-    .navbar a {padding: 2px 4px;}
+    .navbar a {padding: 5px 10px;}
 
     body {
         margin: 10;
         font-family: Roboto;
-        font-size: 10px;
+        font-size: 7px;
     } 
 
     .container {
@@ -109,8 +109,19 @@ body {
     }
 
     .container .content {
-        font-size: 10px;
+        font-size: 7px;
         padding: 5px;
+    }
+
+    .socialmedia {
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+    }
+
+    .socialmedia .fa {
+        padding: 100px;
+        font-size: 30px;
     }
 }
 
@@ -124,7 +135,7 @@ body {
     body {
         margin: 10;
         font-family: Roboto;
-        font-size: 10px;
+        font-size: 7px;
     } 
 
     .container {
@@ -139,7 +150,7 @@ body {
     }
 
     .container .content {
-        font-size: 10px;
+        font-size: 7px;
         padding: 5px;
     }
 }
@@ -149,12 +160,12 @@ body {
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
-    .navbar a {padding: 2px 4px;}
+    .navbar a {padding: 15px 30px;}
 
     body {
         margin: 10;
         font-family: Roboto;
-        font-size: 10px;
+        font-size: 15px;
     } 
 
     .container {
@@ -169,7 +180,7 @@ body {
     }
 
     .container .content {
-        font-size: 10px;
+        font-size: 15px;
         padding: 5px;
     }
 }
