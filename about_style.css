@@ -90,24 +90,30 @@ body {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     .navbar a {padding: 2px 4px;}
-   
+
+    body {
+        margin: 10;
+        font-family: Roboto;
+        font-size: 5px;
+    } 
+
     .container {
         max-width: 750px;
         min-width: 350px;
+        margin: 10% 5%;
+    }
+
+    .container img {
+        margin-bottom: 10px;
+        margin-left: 10px;
     }
 
     .container .content {
-        width: 40%;
-        height: 75%;
-        padding: 50px;
-        font-size: 12px;
-    }
-
-    .mainBody {
-        float: left;
-        font-family: Roboto;
-        text-align: center;
-        padding-top: 200px;
+        top: 50px;
+        width: 400px;
+        font-size: 5px;
+        background: rgba(226, 155, 108, 0.3);
+        color: #BD4D04;
     }
 }
 
