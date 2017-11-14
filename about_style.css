@@ -85,6 +85,8 @@ body {
     opacity: 0.7;
 }
 
+
+/* MEDIA QUERY */
 /* Phones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
@@ -228,7 +230,7 @@ and (min-width : 1024px) {
 }
 
 
-/* Media Query for iPhoneX */
+/* Special Media Query for iPhoneX TESTING PURPOSE*/
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
@@ -269,7 +271,7 @@ and (min-width : 1024px) {
     }
 }
 
-/* Media Query for iPhone 6+, 7+ and 8+ ----------- */
+/* Special Media Query for iPhone 6+, 7+ and 8+ TESTING PURPOSE */
 @media only screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
@@ -308,35 +310,5 @@ and (min-width : 1024px) {
         padding: 10px;
         font-size: 25px;
     }
-}
-
-/* Media Query for iPad 1, 2 Mini & Air */
-/*@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    .navbar a {padding: 15px 30px;}
-
-    body {
-        margin: 10;
-        font-family: Roboto;
-        font-size: 15px;
-    } 
-
-    .container {
-        max-width: 1010px;
-        min-width: 740px;
-        margin: 10% 5%;
-    }
-
-    .container img {
-        margin-bottom: -30px;
-        margin-left: -20px;
-    }
-
-    .container .content {
-        font-size: 15px;
-        padding: 5px;
-    }*/
 }
 
