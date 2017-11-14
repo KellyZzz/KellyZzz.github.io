@@ -127,6 +127,49 @@ and (max-device-width : 720px) {
 
 }
 
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 720px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+     .navbar a {padding: 20px 30px;}
+
+    body {
+        margin: 10;
+        font-family: Roboto;
+        font-size: 15px;
+    } 
+
+    .container {
+        max-width: 1010px;
+        min-width: 710px;
+        margin: 10% 5%;
+    }
+
+    .container img {
+        margin-bottom: -30px;
+        margin-left: -20px;
+    }
+
+    .container .content {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .socialmedia {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+    }
+
+    .socialmedia .fa {
+        padding: 3px;
+        font-size: 30px;
+    }
+
+}
+
+
 /* iPads (landscape) ----------- */
 @media only screen 
 and (min-device-width : 720px) 
@@ -148,7 +191,7 @@ and (orientation : landscape) {
 
     .container img {
         margin-bottom: -30px;
-        margin-left: -60px;
+        margin-left: -20px;
     }
 
     .container .content {
@@ -184,11 +227,6 @@ and (min-width : 1024px) {
 
 }
 
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-  .navbar a {padding: 20px 40px;}
-}
 
 /* Media Query for iPhoneX */
 @media only screen 
