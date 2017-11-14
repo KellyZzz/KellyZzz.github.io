@@ -11,7 +11,7 @@ body {
 .container {
     position: relative;
     max-width: 1500px;
-    min-width: 500px;
+    min-width: 320px;
     margin: 8% 18%;
 }
 
@@ -85,8 +85,91 @@ body {
     opacity: 0.7;
 }
 
-/* Media Query for iPhoneX */
+/* Phones (portrait and landscape) ----------- */
 @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 720px) {
+    .navbar a {padding: 15px 30px;}
+
+    body {
+        margin: 10;
+        font-family: Roboto;
+        font-size: 5px;
+    } 
+
+    .container {
+        max-width: 710px;
+        min-width: 300px;
+        margin: 10% 5%;
+    }
+
+    .container img {
+        margin-bottom: -10px;
+        margin-left: -10px;
+    }
+
+    .container .content {
+        font-size: 5px;
+        padding: 5px;
+    }
+
+    .socialmedia {
+        position: absolute;
+        right: 0;
+        padding: 10px;
+    }
+
+    .socialmedia .fa {
+        padding: 10px;
+        font-size: 50px;
+    }
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 720px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  .navbar a {padding: 20px 30px;}
+
+    body {
+        margin: 10;
+        font-family: Roboto;
+        font-size: 15px;
+    } 
+
+    .container {
+        max-width: 1010px;
+        min-width: 740px;
+        margin: 10% 5%;
+    }
+
+    .container img {
+        margin-bottom: -30px;
+        margin-left: -20px;
+    }
+
+    .container .content {
+        font-size: 15px;
+        padding: 5px;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1024px) {
+  .navbar a {padding: 20px 40px;}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  .navbar a {padding: 20px 40px;}
+}
+
+/* Media Query for iPhoneX */
+/*@media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
@@ -124,10 +207,10 @@ body {
         padding: 10px;
         font-size: 50px;
     }
-}
+}*/
 
 /* Media Query for iPhone 6+, 7+ and 8+ ----------- */
-@media only screen 
+/*@media only screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
@@ -165,10 +248,10 @@ body {
         padding: 10px;
         font-size: 25px;
     }
-}
+}*/
 
 /* Media Query for iPad 1, 2 Mini & Air */
-@media only screen 
+/*@media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
@@ -194,6 +277,6 @@ body {
     .container .content {
         font-size: 15px;
         padding: 5px;
-    }
+    }*/
 }
 
