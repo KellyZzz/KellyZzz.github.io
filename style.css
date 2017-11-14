@@ -101,6 +101,18 @@ and (max-device-width : 720px) {
         padding-top: 200px;
         padding-left: 100px;
     }
+
+    .mainBody h1 {
+        font-size: 40px;
+    }
+
+    .mainBody h4 {
+        font-size: 15px;
+    }
+
+    .mainBody h5 {
+        font-size: 12px;
+    }
 }
 
 /* iPads (portrait) ----------- */
