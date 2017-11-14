@@ -98,22 +98,8 @@ and (max-device-width : 720px) {
         text-align: center;
         padding: 0px;
         padding-right: 0px;
-        padding-top: 100px;
+        padding-top: 200px;
         padding-left: 100px;
-    }
-
-    .mainBody h1 {
-        font-size: 40px;
-    }
-
-    .mainBody h4 {
-        font-size: 20px;
-        padding-bottom: 50px;
-    }
-
-    .mainBody h5 {
-        font-size: 12px;
-        letter-spacing: 2px;
     }
 }
 
