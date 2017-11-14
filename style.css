@@ -84,6 +84,7 @@ and (max-device-width : 720px) {
     } 
 
     .BGpic {
+        width: 100%;
         padding-top: 10px;
         float: left;
         position: absolute;
