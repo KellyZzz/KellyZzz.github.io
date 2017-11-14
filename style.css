@@ -97,8 +97,8 @@ and (max-device-width : 720px) {
         float: left;
         text-align: center;
         padding: 0px;
-        padding-right: 0px;
-        padding-top: 100px;
+        padding-right: 10px;
+        padding-top: 200px;
     }
 
     .mainBody h1 {
