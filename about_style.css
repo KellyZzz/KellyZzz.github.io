@@ -147,7 +147,7 @@ and (orientation : landscape) {
 
     .container img {
         margin-bottom: -30px;
-        margin-left: -20px;
+        margin-left: -60px;
     }
 
     .container .content {
@@ -155,7 +155,7 @@ and (orientation : landscape) {
         padding: 10px;
     }
 
-    .socialmedia {
+    /*.socialmedia {
         position: absolute;
         right: 0;
         bottom: 0;
@@ -165,7 +165,7 @@ and (orientation : landscape) {
     .socialmedia .fa {
         padding: 3px;
         font-size: 30px;
-    }
+    }*/
 }
 
 /* Desktops and laptops ----------- */
@@ -174,13 +174,12 @@ and (min-width : 1024px) {
   .navbar a {padding: 20px 40px;}
 
   body {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .container .content h4{
-    font-size: 16px;
+    font-size: 15px;
   }
-
 
 }
 
