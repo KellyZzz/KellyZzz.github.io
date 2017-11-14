@@ -101,7 +101,7 @@ and (max-device-width : 720px) {
 }
 
 /* iPads (portrait) ----------- */
-@media only screen 
+/*@media only screen 
 and (min-device-width : 720px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
@@ -123,15 +123,15 @@ and (orientation : portrait) {
         position: relative;
     }
 
-}
+}*/
 
 /* iPads (landscape) ----------- */
-@media only screen 
+/*@media only screen 
 and (min-device-width : 720px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
-/*    .navbar a {padding: 20px 30px;}*/
-/*
+    .navbar a {padding: 20px 30px;}
+
     body {
         margin: 10;
         font-family: Roboto;
@@ -150,8 +150,8 @@ and (orientation : landscape) {
         right: 0px;
         width: 300px;
         height: 200px;
-    }*/
-}
+    }
+}*/
 
 /* Desktops and laptops ----------- */
 @media only screen 
