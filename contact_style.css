@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+  font-size: 17px;
+}
+
 /* Add a black background color to the top navigation */
 .navbar {
     overflow: hidden;

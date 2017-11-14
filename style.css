@@ -70,8 +70,127 @@
     letter-spacing: 2px;
 }
 
-/* Media Query for iPhoneX */
+
+/* Phones (portrait and landscape) ----------- */
 @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 720px) {
+    .navbar a {padding: 5px 10px;}
+
+    body {
+        margin: 10;
+        font-family: Roboto;
+        font-size: 5px;
+    } 
+
+    .BGpic {
+        padding-top: 10px;
+        float: left;
+        position: absolute;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+    }
+
+    .mainBody {
+        float: left;
+        text-align: center;
+        padding-top: 200px;
+    }
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 720px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    .navbar a {padding: 20px 30px;}
+
+    body {
+        margin: 10;
+        font-family: Roboto;
+        font-size: 5px;
+    } 
+
+    .BGpic {
+        position: relative;
+        width: 600px;
+        height: 400px;
+    }
+
+    .mainBody {
+        position: absolute;
+        top: -30px;
+        right: 0px;
+        width: 300px;
+        height: 200px;
+    }
+
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 720px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    .navbar a {padding: 20px 30px;}
+
+    body {
+        margin: 10;
+        font-family: Roboto;
+        font-size: 5px;
+    } 
+
+    .BGpic {
+        position: relative;
+        width: 600px;
+        height: 400px;
+    }
+
+    .mainBody {
+        position: absolute;
+        top: -30px;
+        right: 0px;
+        width: 300px;
+        height: 200px;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1024px) {
+  .navbar a {padding: 20px 40px;}
+
+  body {
+    font-size: 12px;
+  }
+
+  .container .content h4{
+    font-size: 15px;
+  }
+
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+    .navbar a {padding: 20px 40px;}
+
+    .BGpic {
+        padding-top: 50px;
+    }
+
+    .mainBody {
+        float: left;
+        text-align: center;
+        padding-top: 400px;
+    }
+
+}
+
+/* Media Query for iPhoneX */
+/*@media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
@@ -94,10 +213,10 @@
         padding-right: 0px;
 
     }
-}
+}*/
 
 /* Media Query for iPhone 6+, 7+ and 8+ ----------- */
-@media only screen 
+/*@media only screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
@@ -124,7 +243,7 @@
     .mainBody h4 {
         padding-bottom: 20px;
     }
-}
+}*/
 
 /* Media Query for iPad 1, 2 Mini & Air */
 /*@media only screen 
