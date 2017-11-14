@@ -118,12 +118,11 @@ body {
         position: absolute;
         right: 0;
         padding: 10px;
-        bottom: 0px;
     }
 
     .socialmedia .fa {
         padding: 10px;
-        font-size: 15px;
+        font-size: 50px;
     }
 }
 
