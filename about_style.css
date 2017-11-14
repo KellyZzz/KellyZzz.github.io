@@ -5,11 +5,11 @@
 body {
     margin: 100;
     font-family: Roboto;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .container {
-    position: absolute;
+    position: relative;
     max-width: 1500px;
     min-width: 500px;
     margin: 8% 18%;
@@ -117,7 +117,8 @@ body {
     .socialmedia {
         position: absolute;
         right: 0;
-        bottom: 10px;
+        padding: 10px;
+        bottom: 0px;
     }
 
     .socialmedia .fa {
