@@ -114,8 +114,9 @@ and (max-device-width : 720px) {
     }
 
     .socialmedia {
-        position: absolute;
+        position: fixed;
         right: 0;
+        bottom: 0;
         padding: 10px;
     }
 
@@ -155,8 +156,8 @@ and (orientation : landscape) {
         padding: 10px;
     }
 
-    /*.socialmedia {
-        position: absolute;
+    .socialmedia {
+        position: fixed;
         right: 0;
         bottom: 0;
         padding: 10px;
@@ -165,7 +166,7 @@ and (orientation : landscape) {
     .socialmedia .fa {
         padding: 3px;
         font-size: 30px;
-    }*/
+    }
 }
 
 /* Desktops and laptops ----------- */
