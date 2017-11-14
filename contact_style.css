@@ -61,18 +61,14 @@
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 720px) {
-  .navbar a {padding: 5px 10px;}
-
-  .maincontent h1 {
-    font-size: 50px;
-  }
+  .navbar a {padding: 15px 30px;}
 
 /* iPads (landscape) ----------- */
 @media only screen 
 and (min-device-width : 720px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
-  .navbar a {padding: 10px 20px;}
+  .navbar a {padding: 20px 30px;}
 }
 
 /* Desktops and laptops ----------- */
