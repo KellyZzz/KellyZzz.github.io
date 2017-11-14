@@ -34,7 +34,7 @@
 }
 
 /* Change the color of home */
-.navbar .index {
+.navbar .home {
     color: #BD4D04;
 }
 
@@ -67,6 +67,7 @@
 
 .mainBody h5 {
     line-height: 10%;
+    font-size: 12px;
     letter-spacing: 2px;
 }
 
@@ -95,7 +96,7 @@ and (max-device-width : 720px) {
     .mainBody {
         float: left;
         text-align: center;
-        padding-top: 200px;
+        padding-top: 100px;
     }
 
 }
@@ -120,11 +121,7 @@ and (orientation : portrait) {
     }
 
     .mainBody {
-        position: absolute;
-        top: -30px;
-        right: 0px;
-        width: 300px;
-        height: 200px;
+        position: relative;
     }
 
 }
