@@ -5,7 +5,7 @@
 body {
     margin: 100;
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .container {
@@ -89,7 +89,7 @@ body {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 720px) {
-    .navbar a {padding: 15px 30px;}
+    .navbar a {padding: 5px 10px;}
 
     body {
         margin: 10;
@@ -120,8 +120,8 @@ and (max-device-width : 720px) {
     }
 
     .socialmedia .fa {
-        padding: 10px;
-        font-size: 50px;
+        padding: 3px;
+        font-size: 30px;
     }
 
 }
@@ -152,7 +152,19 @@ and (orientation : landscape) {
 
     .container .content {
         font-size: 15px;
-        padding: 5px;
+        padding: 10px;
+    }
+
+    .socialmedia {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding: 10px;
+    }
+
+    .socialmedia .fa {
+        padding: 3px;
+        font-size: 30px;
     }
 }
 
