@@ -5,7 +5,7 @@
 body {
     margin: 100;
     font-family: Roboto;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .container {
@@ -27,6 +27,11 @@ body {
     width: 40%;
     height: 75%;
     padding: 30px;
+}
+
+.container a {
+    color: #BD4D04
+    font-size: 20px;
 }
 
 /* Add a black background color to the top navigation */
