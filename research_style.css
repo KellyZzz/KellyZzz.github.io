@@ -34,13 +34,13 @@
     color: #BD4D04;
 }
 
-h2 {
+div.top h2{
     font-family: Roboto;
     font-size-adjust: 35px;
     text-align: center;
 }
 
-p {
+div.top p{
     font-family: Roboto;
     font-size-adjust: 20px;
     text-align: center;
@@ -89,4 +89,9 @@ div.panel {
 /*Style for Content*/
 table {
     font-family: Roboto;
+}
+
+div.panel p{
+    font-family: Roboto;
+    font-size: 18px;
 }
