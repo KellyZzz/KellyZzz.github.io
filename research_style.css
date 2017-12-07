@@ -1,0 +1,92 @@
+/* Add a black background color to the top navigation */
+.navbar {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar {
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,1.9);
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: right;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Roboto;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    color: #BD4D04;
+}  
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+    display: none;
+}
+
+/* Change the color of About */
+.navbar .research {
+    color: #BD4D04;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size-adjust: 35px;
+    text-align: center;
+}
+
+p {
+    font-family: Roboto;
+    font-size-adjust: 20px;
+    text-align: center;
+}
+
+/* Accordion with Symbol */
+button.accordion {
+    background-color: #eee;
+    color: #BD4D04;
+    cursor: pointer;
+    padding: 40px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    font-family: Roboto;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #D9C8B6;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #BD4D04;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: #D9C8B6;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+/*Style for Content*/
+table {
+    font-family: Roboto;
+}
