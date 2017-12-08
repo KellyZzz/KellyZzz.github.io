@@ -13,6 +13,11 @@ body {
     text-align: center;
 }
 
+.resume {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {

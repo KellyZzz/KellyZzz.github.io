@@ -23,7 +23,7 @@ body {
     position: absolute;
     bottom: 0;
     background: rgba(226, 155, 108, 0.3);
-    color: #FFFFFF;
+    color: #d15a3c;
     width: 40%;
     height: 75%;
     padding: 30px;
@@ -71,7 +71,7 @@ body {
 }
 
 .socialmedia {
-	position: absolute;
+	position: fixed;
 	right: 0;
 	bottom: 0;
 }

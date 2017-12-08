@@ -168,3 +168,11 @@ and (min-width : 1824px) {
         padding-top: 400px;
     }
 }
+
+div.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%
+    text-align: center;
+}
